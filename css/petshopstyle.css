@@ -57,8 +57,9 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
 }
-.flex-container.col{
-width: 430px;
+
+.flex-container .col{
+    width: 430px;
 }
 
 .produto{
@@ -96,5 +97,31 @@ width: 430px;
 }
 
 #produto .flex-container{
+    margin-top: 43px;
+}
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#produto .flex-container, #contato .flex-container{
     margin-top: 43px;
 }
