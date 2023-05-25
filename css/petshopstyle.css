@@ -125,3 +125,9 @@ h2{
 #produto .flex-container, #contato .flex-container{
     margin-top: 43px;
 }
+
+.redes{
+    text-align: center;
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
